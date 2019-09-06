@@ -42,7 +42,7 @@ publishing {
 }
 
 artifactory {
-    contextUrl = 'http://artifacts.premlondhe.win:8081/artifactory'
+    contextUrl = 'http://192.168.33.1:8081/artifactory'
     publish {
         repository {
             repoKey = 'libs-snapshot-local' // The Artifactory repository key to publish to
